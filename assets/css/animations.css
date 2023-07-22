@@ -1,0 +1,38 @@
+@keyframes blink {
+  from {
+    border-right-color: #5C94FC;;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 11.6em;
+  }
+}
+
+.typing-animation {
+  animation: blink 500ms steps(40) infinite normal,
+    typing 3s steps(40) 1s normal;
+
+  border-right: 2px solid #5C94FC;;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* icons */
+
+.animation-icons {
+  animation: fadeInFadeOut 2s linear infinite;
+}
+
+@keyframes fadeInFadeOut {
+  0% {opacity: 1;}
+  50% {opacity: 0.2;}
+  100% {opacity: 1;}
+}

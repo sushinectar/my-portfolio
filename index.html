@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luciano Rodrigues" />
+    <title>Portfólio❘Luciano</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./assets/css/animations.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media.css" />
+    <link rel="stylesheet" href="./assets/css/icon.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="slides">
+        <section class="slide s1" id="home">
+          <div class="box-home">
+            <div class="image-home-container">
+              <img src="./assets/img/icon.png" alt="profile" />
+            </div>
+            <h1 class="title typing-animation">Luciano Rodrigues</h1>
+            <div class="address">Brasília, Brazil</div>
+            <div class="occupations">WEB DEVELOPER | MUSICIAN</div>
+            <ul class="social-media">
+              <li class="icon-insta">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/sushiinectar/"
+                >
+                  <span class="icon-instagram"></span>
+                </a>
+              </li>
+              <li class="icon-wpp">
+                <a target="_blank" href="https://wa.me/5561999876436">
+                  <span class="icon-whatsapp"></span>
+                </a>
+              </li>
+              <li class="icon-linke">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/luciano-rodrigues-237444206/"
+                >
+                  <span class="icon-linkedin2"></span>
+                </a>
+              </li>
+              <li class="icon-git">
+                <a target="_blank" href="https://github.com/sushinectar">
+                  <span class="icon-github"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="slide s2" id="about">
+          <div class="box-about">
+            <div class="image-about-container">
+              <img
+                class="my-photo"
+                src="./assets/img/minhafoto.jpg"
+                alt="minha foto"
+              />
+            </div>
+            <div class="about-text">
+              <h1>Sobre mim</h1>
+              <p>
+                Me chamo Luciano Rodrigues, musicista e aspirante à
+                Desenvolvedor Web. Até o momento eu tenho experiência apenas em
+                alguns projetos simples, que mais em breve irei mostrar.
+                Atualmente estou focando nas tecnologias voltadas ao FrontEnd.
+
+                <br />
+                <br />
+
+                Estou aprendendo recentemente mais sobre: Javascript, Bootstrap
+                e React.
+              </p>
+              <div class="about-icons">
+                <img
+                  class="html-icon animation-icons"
+                  src="./assets/img/html-5.png"
+                  alt="html-icon"
+                />
+                <img
+                  class="css-icon animation-icons"
+                  src="./assets/img/css-3.png"
+                  alt="css-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide s3" id="projects">
+          <div class="box-projects">
+            <h1>Projetos</h1>
+            <ul class="project-list">
+              <li>
+                <a href="https://sushinectar.github.io/login-netflix/"
+                  ><img
+                    class="project-images"
+                    src="./assets/img/netflix.png"
+                    alt="projeto netflix"
+                  />
+                  <div class="project-template">netflix</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://sushinectar.github.io/project-snk/"
+                  ><img
+                    class="project-images"
+                    src="./assets/img/snk.png"
+                    alt="projeto shingeki"
+                  />
+                  <div class="project-template">shingeki</div>
+                </a>
+              </li>
+            </ul>
+            <button class="show-more">Ver mais ( EM BREVE )</button>
+            <a
+              class="link-repo"
+              href="https://github.com/sushinectar?tab=repositories"
+              >Repositorio GITHUB</a
+            >
+          </div>
+        </section>
+        <section class="slide s4" id="ability">
+          <div class="box-ability">
+            <h1>Habilidades</h1>
+            <div id="abilitySlider">
+              <div class="abi-slide" id="abiSlide1">
+                <img src="./assets/img/codificacao.png" alt="codificacao" />
+              </div>
+              <div class="abi-slide" id="abiSlide2">
+                <img src="./assets/img/nodejs.png" alt="nodejs" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="navigation">
+          <a class="bar home" href="#home"></a>
+          <a class="bar about" href="#about"></a>
+          <a class="bar projects" href="#projects"></a>
+          <a class="bar ability" href="#ability"></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/modules/menu.js"></script>
+    <script src="./assets/js/modules/slide.js"></script>
+    <script src="./assets/js/modules/redirection.js"></script>
+  </body>
+</html>
