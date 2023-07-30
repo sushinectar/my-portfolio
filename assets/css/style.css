@@ -191,11 +191,21 @@ body::before {
 }
 
 .about-icons {
-  margin-top: 4.45rem;
+  margin-top: 4rem;
+  gap: 5em;
+  display: flex;
+  justify-content: center;
 }
 
-.html-icon , .css-icon {
+.js-icon , .boot-icon , .react-icon {
   width: 5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.js-icon:hover , .boot-icon:hover , .react-icon:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .my-photo {
@@ -220,6 +230,21 @@ body::before {
   border-radius: 3.125rem;
   width: 70rem;
   gap: 2.66rem;
+}
+
+.box-h1 {
+  display: flex;
+}
+
+.coin {
+  width: 4rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.coin:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .box-projects h1 {
