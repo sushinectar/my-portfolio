@@ -284,9 +284,9 @@ body::before {
   height: 3rem;
   font-size: 1rem;
   font-family: "Silkscreen", cursive;
-  color: #eee;
-  background-color: #5C94FC;
-  border: none;
+  color: #5C94FC;
+  background-color: #eee;
+  border: 1px solid #5C94FC;
   border-radius: 1rem;
   transition: all 0.5s;
 }
@@ -295,9 +295,8 @@ body::before {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   cursor: pointer;
-  background-color: #eee;
-  color: #5C94FC;
-  border: 1px solid #5C94FC;
+  background-color: #5C94FC;
+  color: #eee;
 }
 
 .link-repo {
