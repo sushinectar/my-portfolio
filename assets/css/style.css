@@ -3,16 +3,6 @@
   padding: 0;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-}
-
-nav ul {
-  justify-content: center;
-  width: 100%;
-}
-
 li {
   list-style: none;
 }
