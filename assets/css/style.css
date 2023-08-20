@@ -264,7 +264,7 @@ body::before {
 }
 
 .project-images {
-  width: 20rem;
+  width: 19.7rem;
   border-radius: 1rem;
   transition: all 0.5s;
 }
@@ -321,12 +321,58 @@ body::before {
 }
 
 .box-ability img {
-  width: 10rem;
+  width: 7rem;
+}
+
+.abi-code {
+  display: flex;
+  margin-right: 16rem;
+}
+
+.abi-pent {
+  display: flex;
+  margin-right: 4rem;
+}
+
+.cert {
+  margin-left: 2rem;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cert h3 {
+  color: #1bd741;
+}
+
+.cert span {
+  color: #5C94FC;
+}
+
+.show-more-abi {
+  width: 20rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-family: "Silkscreen", cursive;
+  color: #eee;
+  background-color: #5C94FC;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+
+.show-more-abi:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+  background-color: #eee;
+  border: 1px solid #5C94FC;
+  color: #5C94FC;
 }
 
 .navigation {
   position: absolute;
   bottom: 5rem;
+  left: 35%;
   display: flex;
 }
 
