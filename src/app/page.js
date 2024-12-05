@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react"
+import Image from "next/image"
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -54,7 +55,8 @@ export default function Home() {
         </div>
       )}
 
-      <main className="flex justify-center">
+      <main className="flex flex-col justify-center gap-12">
+        {/* summary about */}
         <div className="flex flex-col justify-center items-center text-center gap-10 mt-10">
           <h1 className="text-6xl font-bold">Web Developer</h1>
           <p className="w-72">
@@ -62,6 +64,17 @@ export default function Home() {
             Dapibus mus consequat vestibulum sem parturient nunc egestas? Posuere malesuada mi lacinia tincidunt
             vestibulum interdum. Primis arcu phasellus ante sed dictum. Morbi consectetur tempor adipiscing nec ligula.
           </p>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="relative overflow-hidden rounded-full w-48 h-48">
+            <Image
+              src="/photo-me.JPEG"
+              alt="Luciano Photo"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-full transition-transform duration-500 group-hover:scale-110"
+            />
+          </div>
         </div>
       </main>
     </div>
