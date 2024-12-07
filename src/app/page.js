@@ -55,18 +55,18 @@ export default function Home() {
         </div>
       )}
 
-      <main className="mt-32 flex flex-col justify-center gap-12">
+      <main className="mt-40 flex flex-col justify-center gap-12">
         {/* Summary about */}
         <div className="flex flex-col justify-center items-center text-center gap-10">
           <h1 className="text-6xl font-bold">Web Developer</h1>
           <p className="w-72">
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus sit netus nascetur morbi quam nulla primis.
-            Dapibus mus consequat vestibulum sem parturient nunc egestas? Posuere malesuada mi lacinia tincidunt
-            vestibulum interdum. Primis arcu phasellus ante sed dictum. Morbi consectetur tempor adipiscing nec ligula.
+            I'm Luciano Rodrigues, a web developer and pentester with a focus on building efficient, secure, and
+            user-friendly web solutions. Currently, I'm working as a freelancer, turning ideas into functional and
+            robust digital experiences.
           </p>
         </div>
-        <div className="flex items-center justify-center">
-          <div className="relative overflow-hidden rounded-t-full w-48 h-48 shadow-[10px_12px_0px_rgba(183,48,7,1)] border-2 border-zinc-950">
+        <div className="flex items-center justify-center mb-16">
+          <div className="relative overflow-hidden rounded-t-full w-64 h-64 shadow-[10px_12px_0px_rgba(183,48,7,1)] border-2 border-zinc-950">
             <Image
               src="/photo-me.JPEG"
               alt="Luciano Photo"
@@ -77,13 +77,28 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-zinc-950 pt-24 pr-8 pb-24 pl-8">
-          <div className="flex flex-col gap-4 border-dashed-custom border-dashed p-6">
-            <h1 className="text-xl text-zinc-100 font-semibold">Ferramentas que uso e estou aprendendo</h1>
+          <div className="flex flex-col gap-8 border-dashed-custom border-dashed p-6">
+            <h1 className="text-xl text-zinc-100 font-semibold">Tools I use and am learning</h1>
             <p className="text-zinc-300">
               The most effective way to stay organized and productive in my work is by utilizing these four essential
               tools, whether I'm working alone or collaborating with a team.
             </p>
+            <div className="flex gap-4">
+              <Image src="/notion-icon.png" alt="Notion Icon" width={50} height={50} />
+              <Image src="/figma-icon.png" alt="Figma Icon" width={50} height={50} />
+              <Image src="/next-icon.png" alt="NextJS Icon" width={50} height={50} />
+              <Image src="/tailwind-icon.png" alt="TailwindCSS Icon" width={50} height={50} />
+            </div>
           </div>
+        </div>
+        <div className="flex flex-col text-center items-center p-3 gap-4">
+          <h1 className="text-3xl font-bold">See my latest projects</h1>
+          <p className="text-zinc-700">
+            Take a glimpse into my latest projects and explore what I've accomplished so far.
+          </p>
+          <a href="projects" className="text-custom font-semibold m-6">
+            See some of my projects
+          </a>
         </div>
       </main>
     </div>
