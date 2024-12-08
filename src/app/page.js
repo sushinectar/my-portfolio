@@ -165,22 +165,22 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="flex flex-col bg-zinc-100 gap-8 m-8">
+      <footer className="flex flex-col gap-8 m-8">
         <div className="grid grid-cols-2 gap-4">
-          <a href="" className="text-zinc-700">
+          <a href="" className="text-lg text-zinc-700">
             HOME
           </a>
-          <a href="/about" className="text-zinc-700">
+          <a href="/about" className="text-lg text-zinc-700">
             ABOUT
           </a>
-          <a href="/projects" className="text-zinc-700">
+          <a href="/projects" className="text-lg text-zinc-700">
             PROJECTS
           </a>
-          <a href="/contact" className="text-zinc-700">
-            CONTACTS
+          <a href="/contact" className="text-lg text-zinc-700">
+            CONTACT
           </a>
         </div>
-        <h1 className="text-sm text-zinc-950">© 2024 Luciano Rodrigues. All Rights Reserved.</h1>
+        <h1 className="text-sm text-zinc-700">© 2024 Luciano Rodrigues. All Rights Reserved.</h1>
       </footer>
     </div>
   )
