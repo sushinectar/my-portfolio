@@ -144,7 +144,44 @@ export default function Home() {
             <CarouselNext />
           </Carousel>
         </div>
+        <div className="bg-zinc-950 pt-24 pr-8 pb-24 pl-8">
+          <div className="flex flex-col gap-8 border-dashed-custom border-dashed p-6">
+            <h1 className="text-xl text-zinc-100 font-semibold">Ways to contact me</h1>
+            <p className="text-zinc-300">
+              The most reliable ways to get in touch with me are through these three channels: LinkedIn, Instagram, and
+              email. Whether you’re looking to collaborate, share ideas, or just say hi, feel free to reach out!
+            </p>
+            <div className="flex gap-4">
+              <a href="https://www.instagram.com/nectarsushi/">
+                <Image src="/instagram.png" alt="Instagram Icon" width={50} height={50} />
+              </a>
+              <a href="https://www.linkedin.com/in/luciano-rodrigues-25173133b/">
+                <Image src="/linkedin.png" alt="LinkedIn Icon" width={50} height={50} />
+              </a>
+              <a href="mailto:contato.sushinectar@gmail.com">
+                <Image src="/o-email.png" alt="Email Icon" width={50} height={50} />
+              </a>
+            </div>
+          </div>
+        </div>
       </main>
+      <footer className="flex flex-col bg-zinc-100 gap-8 m-8">
+        <div className="grid grid-cols-2 gap-4">
+          <a href="" className="text-zinc-700">
+            HOME
+          </a>
+          <a href="/about" className="text-zinc-700">
+            ABOUT
+          </a>
+          <a href="/projects" className="text-zinc-700">
+            PROJECTS
+          </a>
+          <a href="/contact" className="text-zinc-700">
+            CONTACTS
+          </a>
+        </div>
+        <h1 className="text-sm text-zinc-950">© 2024 Luciano Rodrigues. All Rights Reserved.</h1>
+      </footer>
     </div>
   )
 }
