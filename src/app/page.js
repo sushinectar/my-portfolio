@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useState } from "react"
 import Image from "next/image"
 
@@ -11,6 +12,20 @@ export default function Home() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
+
+  // Array containing the image and link data for each slide
+  const slides = [
+    {
+      imageSrc: "/primevideo-slide.png",
+      link: "https://github.com/sushinectar/prime-video",
+      text: "A Prime Video clone",
+    },
+    {
+      imageSrc: "/ndkforum-slide.png",
+      link: "https://github.com/sushinectar/ndk-forum",
+      text: "A forum of CS 1.6 server",
+    },
+  ]
 
   return (
     <div>
@@ -102,17 +117,26 @@ export default function Home() {
           <a href="projects" className="text-custom font-semibold m-6">
             See some of my projects
           </a>
-          <Carousel className="w-full max-w-xs">
+          <Carousel className="w-60">
             <CarouselContent>
-              {Array.from({ length: 5 }).map((_, index) => (
+              {slides.map((slide, index) => (
                 <CarouselItem key={index}>
-                  <div className="p-1">
+                  <div className="p-1 mb-4">
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <span className="text-4xl font-semibold">{index + 1}</span>
+                        <a href={slide.link}>
+                          <Image
+                            src={slide.imageSrc}
+                            alt={`Project ${index + 1}`}
+                            width={300}
+                            height={200}
+                            className="rounded-lg"
+                          />
+                        </a>
                       </CardContent>
                     </Card>
                   </div>
+                  <h1 className="font-semibold">{slide.text}</h1>
                 </CarouselItem>
               ))}
             </CarouselContent>
