@@ -21,6 +21,11 @@ export default function Home() {
       text: "A Prime Video clone",
     },
     {
+      imageSrc: "/weather-slide.png",
+      link: "https://github.com/sushinectar/weather-app",
+      text: "A Weather App",
+    },
+    {
       imageSrc: "/ndkforum-slide.png",
       link: "https://github.com/sushinectar/ndk-forum",
       text: "A forum of CS 1.6 server",
