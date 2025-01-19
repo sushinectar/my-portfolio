@@ -75,7 +75,8 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100vw;
-    padding: 1rem 0 1rem 0;
+    height: 100vh;
+    padding: 0 0 15rem 0;
   }
 
   .container-text {
@@ -87,15 +88,62 @@
   }
 
   .container h2 {
-    font-size: 6rem;
+    font-size: 7rem;
   }
 
   .container p {
     width: 33rem;
+    font-size: 1.2rem;
   }
 
   .container-img {
     width: 30rem;
     height: 30rem;
+  }
+
+  .tools-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60rem;
+    padding: 3rem;
+    border-radius: 20px;
+  }
+
+  .tools-text {
+    width: 30rem;
+  }
+
+  .tools-text h1 {
+    font-size: 2rem;
+  }
+
+  .tools-text p {
+    font-size: 1.1rem;
+  }
+
+  .notion-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .figma-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .next-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .tail-img {
+    width: 5rem;
+    height: 5rem;
   }
 }

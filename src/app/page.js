@@ -127,7 +127,7 @@ export default function Home() {
           <div className="container-text flex flex-col justify-center items-center text-center gap-10">
             <div className="container-tittle">
               <h1 className="container-h1 text-6xl font-bold">Software</h1>
-              <h2 className="container-h2 text-5xl font-bold">Developer</h2>
+              <h2 className="container-h2 text-5xl ">Developer</h2>
             </div>
             <p className="w-72">
               I'm Luciano Rodrigues, a software developer and pentester with a
@@ -148,36 +148,42 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-screen bg-zinc-950 pt-24 pr-8 pb-24 pl-8">
-          <div className="flex flex-col gap-8 border-dashed-custom border-dashed p-6">
-            <h1 className="text-xl text-zinc-100 font-semibold">
-              Tools I use and am learning
-            </h1>
-            <p className="text-zinc-300">
-              The most effective way to stay organized and productive in my work
-              is by utilizing these four essential tools, whether I'm working
-              alone or collaborating with a team.
-            </p>
+        <div className="tools-main w-screen bg-zinc-950 pt-24 pr-8 pb-24 pl-8">
+          <div className="tools flex flex-col gap-8 border-dashed-custom border-dashed p-6">
+            <div className="tools-text flex flex-col gap-4">
+              <h1 className="text-xl text-zinc-100 font-semibold">
+                Tools I use and am learning
+              </h1>
+              <p className="text-zinc-300">
+                The most effective way to stay organized and productive in my
+                work is by utilizing these four essential tools, whether I'm
+                working alone or collaborating with a team.
+              </p>
+            </div>
             <div className="flex gap-4">
               <Image
+                className="notion-img"
                 src="/notion-icon.png"
                 alt="Notion Icon"
                 width={50}
                 height={50}
               />
               <Image
+                className="figma-img"
                 src="/figma-icon.png"
                 alt="Figma Icon"
                 width={50}
                 height={50}
               />
               <Image
+                className="next-img"
                 src="/next-icon.png"
                 alt="NextJS Icon"
                 width={50}
                 height={50}
               />
               <Image
+                className="tail-img"
                 src="/tailwind-icon.png"
                 alt="TailwindCSS Icon"
                 width={50}
