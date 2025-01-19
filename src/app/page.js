@@ -26,7 +26,7 @@ export default function Home() {
   const slides = [
     {
       imageSrc: "/spotify-slide.png",
-      link: "https://github.com/sushinectar/prime-video",
+      link: "https://github.com/sushinectar/spotify-clone",
       text: "A Spotify clone",
     },
     {
@@ -148,8 +148,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="tools-main w-screen bg-zinc-950 pt-24 pr-8 pb-24 pl-8">
-          <div className="tools flex flex-col gap-8 border-dashed-custom border-dashed p-6">
+        <div className="tools-main w-screen bg-zinc-900 pt-24 pr-8 pb-24 pl-8">
+          <div className="tools flex flex-col gap-8 p-6">
             <div className="tools-text flex flex-col gap-4">
               <h1 className="text-xl text-zinc-100 font-semibold">
                 Tools I use and am learning
@@ -192,12 +192,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col text-center items-center w-screen p-3 gap-4">
-          <h1 className="text-3xl font-bold">See my latest projects</h1>
-          <p className="text-zinc-700">
-            Take a glimpse into my latest projects and explore what I've
-            accomplished so far.
-          </p>
+        <div className="projects flex flex-col text-center items-center w-screen p-3 gap-4">
+          <div className="projects-text flex flex-col gap-6">
+            <h1 className="text-3xl font-bold">See my latest projects</h1>
+            <p className="text-zinc-700">
+              Take a glimpse into my latest projects and explore what I've
+              accomplished so far.
+            </p>
+          </div>
           <a href="projects" className="text-custom font-semibold m-6">
             See some of my projects
           </a>
@@ -228,8 +230,8 @@ export default function Home() {
             <CarouselNext />
           </Carousel>
         </div>
-        <div className="w-screen bg-zinc-950 pt-24 pr-8 pb-24 pl-8">
-          <div className="flex flex-col gap-8 border-dashed-custom border-dashed p-6">
+        <div className="contact w-screen bg-zinc-900 pt-24 pr-8 pb-24 pl-8">
+          <div className="flex flex-col gap-8 p-6">
             <h1 className="text-xl text-zinc-100 font-semibold">
               Ways to contact me
             </h1>
@@ -269,23 +271,25 @@ export default function Home() {
         </div>
       </main>
       <footer className="flex flex-col gap-8 m-8">
-        <div className="grid grid-cols-2 gap-4">
-          <a href="" className="text-lg text-zinc-700">
-            HOME
-          </a>
-          <a href="/about" className="text-lg text-zinc-700">
-            ABOUT
-          </a>
-          <a href="/projects" className="text-lg text-zinc-700">
-            PROJECTS
-          </a>
-          <a href="/contact" className="text-lg text-zinc-700">
-            CONTACT
-          </a>
+        <div className="footer flex flex-col gap-8">
+          <div className="footer-links grid grid-cols-2 gap-4">
+            <a href="" className="text-lg text-zinc-700">
+              HOME
+            </a>
+            <a href="/about" className="text-lg text-zinc-700">
+              ABOUT
+            </a>
+            <a href="/projects" className="text-lg text-zinc-700">
+              PROJECTS
+            </a>
+            <a href="/contact" className="text-lg text-zinc-700">
+              CONTACT
+            </a>
+          </div>
+          <h1 className="text-sm text-zinc-700">
+            © 2024 Luciano Rodrigues. All Rights Reserved.
+          </h1>
         </div>
-        <h1 className="text-sm text-zinc-700">
-          © 2024 Luciano Rodrigues. All Rights Reserved.
-        </h1>
       </footer>
     </div>
   );

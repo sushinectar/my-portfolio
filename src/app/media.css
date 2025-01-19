@@ -146,4 +146,36 @@
     width: 5rem;
     height: 5rem;
   }
+
+  .projects {
+    padding: 4rem;
+  }
+
+  .projects-text {
+    gap: 2rem;
+  }
+
+  .projects-text h1 {
+    font-size: 3rem;
+  }
+
+  .projects-text p {
+    font-size: 1.2rem;
+  }
+
+  .contact p {
+    width: 50rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
 }

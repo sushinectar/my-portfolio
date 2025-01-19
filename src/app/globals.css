@@ -71,10 +71,10 @@ body {
   }
 }
 
-.border-dashed-custom {
+/* .border-dashed-custom {
   border: 3px dashed rgba(183, 48, 7, 1);
   border-radius: 5px;
-}
+} */
 
 .text-custom {
   color: rgba(183, 48, 7, 1);
