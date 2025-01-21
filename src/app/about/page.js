@@ -119,7 +119,27 @@ export default function About() {
           </div>
         </div>
 
-        <div></div>
+        <div className="flex flex-col justify-center items-center text-center w-screen py-24 px-10 bg-purple-200">
+          <div className="flex flex-col text-left gap-12">
+            <h1 className="font-semibold text-3xl">This is how I do it ✦</h1>
+            <h2 className="font-semibold">
+              Creating experiences that matter by putting users and their needs
+              at the forefront.
+            </h2>
+            <p className>
+              Every project I take on—whether in development or cybersecurity—is
+              guided by a commitment to meaningful impact. My focus is on
+              creating solutions that are intuitive, reliable, and purposeful,
+              ensuring users feel understood and valued at every step of the
+              journey.
+            </p>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
       </main>
     </div>
   );
