@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 import "./media.css";
 
@@ -85,6 +86,41 @@ export default function About() {
           </div>
         </div>
       )}
+      <main className="mt-40 flex flex-col justify-center items-center gap-12">
+        <div className="container flex flex-col gap-8">
+          <div className="container-text flex flex-col justify-center items-center text-center gap-10">
+            <div className="container-tittle">
+              <h1 className="container-h1 text-6xl">Hi there,</h1>
+              <h2 className="container-h2 text-5xl font-bold">I'm Luciano</h2>
+            </div>
+            <p className="w-72">
+              I'm a software developer and pentester passionate about creating
+              functional, secure, and visually appealing digital experiences. I
+              specialize in building responsive websites and apps with a focus
+              on performance, design, and security. Currently freelancing, I
+              collaborate with clients to bring ideas to life while exploring
+              new technologies. Based in Brazil, I enjoy engaging with tech
+              communities, refining my skills, and working on creative projects.
+              Outside of coding, I love discovering coffee spots, gaming, and
+              enjoying the sunrise after late brainstorming sessions. Reach out
+              for a chat or collaboration!
+            </p>
+          </div>
+          <div className="flex items-center justify-center mb-16">
+            <div className="container-img relative overflow-hidden rounded-full w-64 h-64 border-2 border-zinc-950">
+              <Image
+                src="/photo-about.jpeg"
+                alt="Luciano Photo"
+                layout="fill"
+                objectFit="cover"
+                className="object-bottom scale-110"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div></div>
+      </main>
     </div>
   );
 }
