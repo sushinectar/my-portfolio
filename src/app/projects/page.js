@@ -93,8 +93,58 @@ export default function About() {
             <h1 className="container-h1 text-6xl">Recent</h1>
             <h2 className="container-h2 text-5xl font-bold">Projects</h2>
           </div>
-          <div></div>
+          <div className="flex flex-col my-6 gap-10">
+            <a className="flex flex-col gap-10">
+              <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
+                <Image
+                  src="/spotify-slide.png"
+                  alt="A Spotify Clone"
+                  width={200}
+                  height={200}
+                />
+              </button>
+              <div className="flex flex-col mx-10 gap-4">
+                <h1 className="font-semibold text-xl">
+                  Spotify Clone &#10230;
+                </h1>
+                <p>A Spotify app clone redesign made in React Native</p>
+              </div>
+            </a>
 
+            <a className="flex flex-col gap-10">
+              <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
+                <Image
+                  src="/primevideo-slide.png"
+                  alt="A Prime Video clone"
+                  width={200}
+                  height={200}
+                />
+              </button>
+              <div className="flex flex-col mx-10 gap-4">
+                <h1 className="font-semibold text-xl">
+                  Prime Video Clone &#10230;
+                </h1>
+                <p>A Prime video clone redesign made in React Native.</p>
+              </div>
+            </a>
+
+            <a className="flex flex-col gap-10">
+              <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
+                <Image
+                  src="/weather-slide.png"
+                  alt="A Weather App"
+                  width={200}
+                  height={200}
+                />
+              </button>
+              <div className="flex flex-col mx-10 gap-4">
+                <h1 className="font-semibold text-xl">
+                  Weather App &#10230;
+                </h1>
+                <p>a web application with weather api using NextJS and Tailwind.</p>
+              </div>
+            </a>
+          </div>
         </div>
       </main>
 
