@@ -71,11 +71,70 @@
     transition: color 0.2s;
   }
 
+  .container {
+    margin: 2rem 0 3rem 0 ;
+    display: flex;
+    gap: 5rem;
+  }
+
+  .container-tittle {
+    margin-right: 61rem;
+  }
+
   .container h1 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .container h2 {
-    font-size: 7rem;
+    font-size: 5rem;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+  }
+
+  .projects button {
+    box-shadow: none;
+    transition: all 0.2s;
+  }
+
+  .projects-btn:hover {
+    box-shadow: 5px 6px 0px rgba(0,0,0,1);
+    transition: all 0.2s;
+    transform: scale(1.01);
+  }
+
+  .projects img {
+    width: 20rem;
+  }
+
+  .projects-text {
+    transition: all 0.2s;
+  }
+
+  .projects-text:hover {
+    transition: all 0.2s;
+    transform: scale(1.03);
+  }
+
+  .projects h1 {
+    font-size: 1.4rem;
+  }
+
+  .projects p {
+    font-size: 1rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
   }
 }

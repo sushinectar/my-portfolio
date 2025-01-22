@@ -93,17 +93,18 @@ export default function About() {
             <h1 className="container-h1 text-6xl">Recent</h1>
             <h2 className="container-h2 text-5xl font-bold">Projects</h2>
           </div>
-          <div className="flex flex-col my-6 gap-10">
+          <div className="projects flex flex-col my-6 gap-10">
             <a href="https://github.com/sushinectar/spotify-clone" className="flex flex-col gap-10">
-              <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
+              <button className="projects-btn mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
+                  className="projects-img"
                   src="/spotify-slide.png"
                   alt="A Spotify Clone"
                   width={200}
                   height={200}
                 />
               </button>
-              <div className="flex flex-col mx-10 gap-4">
+              <div className="projects-text flex flex-col mx-10 gap-4">
                 <h1 className="font-semibold text-xl">
                   Spotify Clone &#10230;
                 </h1>
@@ -112,7 +113,7 @@ export default function About() {
             </a>
 
             <a href="https://github.com/sushinectar/prime-video" className="flex flex-col gap-10">
-              <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
+              <button className="projects-btn mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
                   src="/primevideo-slide.png"
                   alt="A Prime Video clone"
@@ -120,7 +121,7 @@ export default function About() {
                   height={200}
                 />
               </button>
-              <div className="flex flex-col mx-10 gap-4">
+              <div className="projects-text flex flex-col mx-10 gap-4">
                 <h1 className="font-semibold text-xl">
                   Prime Video Clone &#10230;
                 </h1>
@@ -129,7 +130,7 @@ export default function About() {
             </a>
 
             <a href="https://github.com/sushinectar/weather-app" className="flex flex-col gap-10">
-              <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
+              <button className="projects-btn mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
                   src="/weather-slide.png"
                   alt="A Weather App"
@@ -137,11 +138,11 @@ export default function About() {
                   height={200}
                 />
               </button>
-              <div className="flex flex-col mx-10 gap-4">
+              <div className="projects-text flex flex-col mx-10 gap-4">
                 <h1 className="font-semibold text-xl">
                   Weather App &#10230;
                 </h1>
-                <p>a web application with weather api using NextJS and Tailwind.</p>
+                <p>A Web Application with weather api using NextJS and Tailwind.</p>
               </div>
             </a>
           </div>

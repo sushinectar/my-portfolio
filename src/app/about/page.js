@@ -88,7 +88,7 @@ export default function About() {
       )}
       <main className="mt-40 flex flex-col justify-center items-center">
         <div className="container flex flex-col gap-8">
-          <div className="container-text flex flex-col justify-center items-center text-center gap-10">
+          <div className="container-text flex flex-col justify-center items-center text-center mx-12 gap-10">
             <div>
               <h1 className="container-h1 text-6xl">Hi there,</h1>
               <h2 className="container-h2 text-5xl font-bold">I'm Luciano</h2>
