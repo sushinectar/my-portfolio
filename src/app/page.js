@@ -265,6 +265,9 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      <hr className="" />
+
       <footer className="flex flex-col gap-8 m-8">
         <div className="footer flex flex-col gap-8">
           <div className="footer-links grid grid-cols-2 gap-4">

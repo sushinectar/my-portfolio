@@ -88,13 +88,13 @@ export default function About() {
       )}
 
       <main className="mt-40 flex flex-col justify-center items-center">
-        <div className="container flex flex-col justify-center items-center px-8">
+        <div className="container flex flex-col justify-center items-center px-8 pb-12">
           <div className="container-tittle">
             <h1 className="container-h1 text-6xl">Recent</h1>
             <h2 className="container-h2 text-5xl font-bold">Projects</h2>
           </div>
           <div className="flex flex-col my-6 gap-10">
-            <a className="flex flex-col gap-10">
+            <a href="https://github.com/sushinectar/spotify-clone" className="flex flex-col gap-10">
               <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
                   src="/spotify-slide.png"
@@ -111,7 +111,7 @@ export default function About() {
               </div>
             </a>
 
-            <a className="flex flex-col gap-10">
+            <a href="https://github.com/sushinectar/prime-video" className="flex flex-col gap-10">
               <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
                   src="/primevideo-slide.png"
@@ -128,7 +128,7 @@ export default function About() {
               </div>
             </a>
 
-            <a className="flex flex-col gap-10">
+            <a href="https://github.com/sushinectar/weather-app" className="flex flex-col gap-10">
               <button className="mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
                   src="/weather-slide.png"
@@ -148,7 +148,9 @@ export default function About() {
         </div>
       </main>
 
-      {/* <footer className="flex flex-col gap-8 m-8">
+      <hr className=""/>
+
+      <footer className="flex flex-col gap-8 m-8">
         <div className="footer flex flex-col gap-8">
           <div className="footer-links grid grid-cols-2 gap-4">
             <a href="" className="text-lg text-zinc-700">
@@ -168,7 +170,7 @@ export default function About() {
             © 2024 Luciano Rodrigues. All Rights Reserved.
           </h1>
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 }
