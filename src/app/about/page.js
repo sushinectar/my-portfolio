@@ -86,7 +86,7 @@ export default function About() {
           </div>
         </div>
       )}
-      <main className="mt-40 flex flex-col justify-center items-center gap-12">
+      <main className="mt-40 flex flex-col justify-center items-center gap-">
         <div className="container flex flex-col gap-8">
           <div className="container-text flex flex-col justify-center items-center text-center gap-10">
             <div className="container-tittle">
@@ -139,12 +139,7 @@ export default function About() {
           <div className="work-list flex flex-col items-center mt-16 gap-12">
             <div className="flex text-left gap-6">
               <div className="star-img flex justify-center items-center w-16 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-yellow-100">
-                <Image
-                  src="/star.png"
-                  alt="Star icon"
-                  width={30}
-                  height={30}
-                />
+                <Image src="/star.png" alt="Star icon" width={30} height={30} />
               </div>
               <p className="w-52">
                 <b>Empathy first.</b> I start by understanding the problem from
@@ -185,7 +180,72 @@ export default function About() {
             </div>
           </div>
         </div>
+        <div className="tools-main w-screen bg-zinc-900 pt-24 pr-8 pb-24 pl-8">
+          <div className="tools flex flex-col gap-8 p-6">
+            <div className="tools-text flex flex-col gap-4">
+              <h1 className="text-xl text-zinc-100 font-semibold">
+                Tools I use and am learning
+              </h1>
+              <p className="text-zinc-300">
+                The most effective way to stay organized and productive in my
+                work is by utilizing these four essential tools, whether I'm
+                working alone or collaborating with a team.
+              </p>
+            </div>
+            <div className="flex gap-4">
+              <Image
+                className="notion-img"
+                src="/notion-icon.png"
+                alt="Notion Icon"
+                width={50}
+                height={50}
+              />
+              <Image
+                className="figma-img"
+                src="/figma-icon.png"
+                alt="Figma Icon"
+                width={50}
+                height={50}
+              />
+              <Image
+                className="next-img"
+                src="/next-icon.png"
+                alt="NextJS Icon"
+                width={50}
+                height={50}
+              />
+              <Image
+                className="tail-img"
+                src="/tailwind-icon.png"
+                alt="TailwindCSS Icon"
+                width={50}
+                height={50}
+              />
+            </div>
+          </div>
+        </div>
       </main>
+      <footer className="flex flex-col gap-8 m-8">
+        <div className="footer flex flex-col gap-8">
+          <div className="footer-links grid grid-cols-2 gap-4">
+            <a href="" className="text-lg text-zinc-700">
+              HOME
+            </a>
+            <a href="/about" className="text-lg text-zinc-700">
+              ABOUT
+            </a>
+            <a href="/projects" className="text-lg text-zinc-700">
+              PROJECTS
+            </a>
+            <a href="/contact" className="text-lg text-zinc-700">
+              CONTACT
+            </a>
+          </div>
+          <h1 className="text-sm text-zinc-700">
+            © 2024 Luciano Rodrigues. All Rights Reserved.
+          </h1>
+        </div>
+      </footer>
     </div>
   );
 }

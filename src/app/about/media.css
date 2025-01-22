@@ -147,4 +147,61 @@
     width: 4rem;
   }
 
+  .tools-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60rem;
+    padding: 3rem;
+    border-radius: 20px;
+  }
+
+  .tools-text {
+    width: 30rem;
+  }
+
+  .tools-text h1 {
+    font-size: 2rem;
+  }
+
+  .tools-text p {
+    font-size: 1.1rem;
+  }
+
+  .notion-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .figma-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .next-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .tail-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
 }
