@@ -97,22 +97,22 @@ export default function Home() {
             </button>
             <ul>
               <li>
-                <a href="" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Home
                 </a>
               </li>
               <li>
-                <a href="about" className="hover:underline">
+                <a href="/about" className="hover:underline">
                   About
                 </a>
               </li>
               <li>
-                <a href="projects" className="hover:underline">
+                <a href="/projects" className="hover:underline">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="contact" className="hover:underline">
+                <a href="/contact" className="hover:underline">
                   Contact
                 </a>
               </li>

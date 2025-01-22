@@ -63,22 +63,22 @@ export default function About() {
             </button>
             <ul>
               <li>
-                <a href="" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Home
                 </a>
               </li>
               <li>
-                <a href="about" className="hover:underline">
+                <a href="/about" className="hover:underline">
                   About
                 </a>
               </li>
               <li>
-                <a href="projects" className="hover:underline">
+                <a href="/projects" className="hover:underline">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="contact" className="hover:underline">
+                <a href="/contact" className="hover:underline">
                   Contact
                 </a>
               </li>
@@ -86,10 +86,10 @@ export default function About() {
           </div>
         </div>
       )}
-      <main className="mt-40 flex flex-col justify-center items-center gap-">
+      <main className="mt-40 flex flex-col justify-center items-center">
         <div className="container flex flex-col gap-8">
           <div className="container-text flex flex-col justify-center items-center text-center gap-10">
-            <div className="container-tittle">
+            <div>
               <h1 className="container-h1 text-6xl">Hi there,</h1>
               <h2 className="container-h2 text-5xl font-bold">I'm Luciano</h2>
             </div>
