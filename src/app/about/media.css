@@ -103,4 +103,48 @@
     margin: 7rem 0 2rem 0;
   }
 
+  .work {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 10rem 7rem 10rem;
+    gap: 10rem;
+  }
+
+  .work p {
+    font-size: 1.1rem;
+    width: 30rem;
+  }
+
+  .work h1 {
+    font-size: 3rem;
+  }
+
+  .work h2 {
+    font-size: 1.5rem;
+  }
+
+  .work h3 {
+    font-size: 1.1rem;
+  }
+
+  .work-text {
+    width: 40rem;
+  }
+
+  .work-list {
+    width: 36rem;
+  }
+
+  .star-img {
+    width: 4rem;
+  }
+
+  .bullseye-img {
+    width: 4rem;
+  }
+
+  .hand-img {
+    width: 4rem;
+  }
+
 }

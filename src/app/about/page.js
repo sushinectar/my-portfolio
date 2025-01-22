@@ -119,34 +119,41 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center text-center w-screen py-24 px-10 bg-purple-200">
-          <div className="flex flex-col text-left gap-6">
-            <h1 className="font-semibold text-3xl mb-8">This is how I do it ✦</h1>
+        <div className="work flex flex-col justify-center items-center text-center w-screen py-24 px-10 bg-purple-100">
+          <div className="work-text flex flex-col text-left gap-6">
+            <h1 className="font-semibold text-3xl mb-8">
+              This is how I do it ✦
+            </h1>
             <h2 className="font-semibold">
               Creating experiences that matter by putting users and their needs
               at the forefront.
             </h2>
-            <p className="text-zinc-800">
+            <h3 className="text-zinc-800">
               Every project I take on—whether in development or cybersecurity—is
               guided by a commitment to meaningful impact. My focus is on
               creating solutions that are intuitive, reliable, and purposeful,
               ensuring users feel understood and valued at every step of the
               journey.
-            </p>
+            </h3>
           </div>
-          <div className="flex flex-col mt-16 gap-12">
+          <div className="work-list flex flex-col items-center mt-16 gap-12">
             <div className="flex text-left gap-6">
-              <div className="flex justify-center items-center w-48 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-yellow-100">
-                <Image src="/star.png" alt="Star icon" width={30} height={30} />
+              <div className="star-img flex justify-center items-center w-16 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-yellow-100">
+                <Image
+                  src="/star.png"
+                  alt="Star icon"
+                  width={30}
+                  height={30}
+                />
               </div>
-              <p>
+              <p className="w-52">
                 <b>Empathy first.</b> I start by understanding the problem from
                 the user's perspective, asking the right questions to shape
                 decisions that align with real-world needs.
               </p>
             </div>
             <div className="flex text-left gap-6">
-              <div className="flex justify-center items-center w-48 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-lime-100">
+              <div className="bullseye-img flex justify-center items-center w-16 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-lime-100">
                 <Image
                   src="/bullseye.png"
                   alt="Star icon"
@@ -154,14 +161,14 @@ export default function About() {
                   height={30}
                 />
               </div>
-              <p>
+              <p className="w-52">
                 <b>Simplicity is key.</b> By stripping away the unnecessary, I
                 create streamlined, effective solutions that prioritize
                 functionality, consistency, and clarity.
               </p>
             </div>
             <div className="flex text-left gap-6">
-              <div className="flex justify-center items-center w-48 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-blue-100">
+              <div className="hand-img flex justify-center items-center w-16 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-blue-100">
                 <Image
                   src="/hand-shake.png"
                   alt="Star icon"
@@ -169,7 +176,7 @@ export default function About() {
                   height={30}
                 />
               </div>
-              <p>
+              <p className="w-52">
                 <b>Collaboration builds greatness.</b> From brainstorming to
                 development, open communication and teamwork drive the best
                 results. Iteration is an opportunity to refine and improve
