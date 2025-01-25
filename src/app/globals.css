@@ -79,3 +79,7 @@ body {
 .text-custom {
   color: rgba(183, 48, 7, 1);
 }
+
+.bg-custom {
+  background-color: rgba(183, 48, 7, 1);
+}

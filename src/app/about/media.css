@@ -70,6 +70,22 @@
     transition: color 0.2s;
   }
 
+  .chat {
+    display: flex;
+    margin: 0;
+  }
+
+  .chat-btn {
+    box-shadow: none;
+    transition: all 0.2s;
+  }
+
+  .chat-btn:hover {
+    box-shadow: 1px 2px 0px rgba(0, 0, 0, 1);
+    transition: all 0.2s;
+    transform: scale(1.05);
+  }
+
   .container {
     display: flex;
     flex-direction: row;

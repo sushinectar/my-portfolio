@@ -66,13 +66,18 @@ export default function Home() {
                 PROJECTS
               </a>
             </li>
-            <li>
-              <a href="/contact" className="text-zinc-700 hover:text-zinc-950">
-                CONTACT
-              </a>
-            </li>
           </ul>
         </div>
+
+        <div className="chat hidden mt-8">
+            <a href="mailto:contato.sushinectar@gmail.com" className="flex justify-center items-center gap-4">
+              <button className="chat-btn bg-custom p-2 rounded-full border border-zinc-900">
+                &#10230;
+              </button>
+              <h1 className="font-semibold">Let’s chat</h1>
+            </a>
+          </div>
+
         {/* Mobile Menu Button */}
         <div className="flex md:hidden">
           <button
@@ -106,12 +111,15 @@ export default function Home() {
                   Projects
                 </a>
               </li>
-              <li>
-                <a href="/contact" className="hover:underline">
-                  Contact
-                </a>
-              </li>
             </ul>
+            <div className="mt-8">
+              <a href="mailto:contato.sushinectar@gmail.com" className="flex justify-center items-center gap-4">
+                <button className="bg-custom p-2 rounded-full border border-zinc-900">
+                  &#10230;
+                </button>
+                <h1>Let’s chat</h1>
+              </a>
+            </div>
           </div>
         </div>
       )}

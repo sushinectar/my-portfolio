@@ -37,12 +37,18 @@ export default function About() {
                 PROJECTS
               </a>
             </li>
-            <li>
-              <a href="/contact" className="text-zinc-700 hover:text-zinc-950">
-                CONTACT
-              </a>
-            </li>
           </ul>
+        </div>
+        <div className="chat hidden mt-8">
+          <a
+            href="mailto:contato.sushinectar@gmail.com"
+            className="flex justify-center items-center gap-4"
+          >
+            <button className="chat-btn bg-custom p-2 rounded-full border border-zinc-900">
+              &#10230;
+            </button>
+            <h1 className="font-semibold">Let’s chat</h1>
+          </a>
         </div>
         {/* Mobile Menu Button */}
         <div className="flex md:hidden">
@@ -77,12 +83,15 @@ export default function About() {
                   Projects
                 </a>
               </li>
-              <li>
-                <a href="/contact" className="hover:underline">
-                  Contact
-                </a>
-              </li>
             </ul>
+            <div className="mt-8">
+              <a className="flex justify-center items-center gap-4">
+                <button className="bg-custom p-2 rounded-full border border-zinc-900">
+                  &#10230;
+                </button>
+                <h1>Let’s chat</h1>
+              </a>
+            </div>
           </div>
         </div>
       )}
@@ -94,7 +103,10 @@ export default function About() {
             <h2 className="container-h2 text-5xl font-bold">Projects</h2>
           </div>
           <div className="projects flex flex-col my-6 gap-10">
-            <a href="https://github.com/sushinectar/spotify-clone" className="flex flex-col gap-10">
+            <a
+              href="https://github.com/sushinectar/spotify-clone"
+              className="flex flex-col gap-10"
+            >
               <button className="projects-btn mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
                   className="projects-img"
@@ -112,7 +124,10 @@ export default function About() {
               </div>
             </a>
 
-            <a href="https://github.com/sushinectar/prime-video" className="flex flex-col gap-10">
+            <a
+              href="https://github.com/sushinectar/prime-video"
+              className="flex flex-col gap-10"
+            >
               <button className="projects-btn mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
                   src="/primevideo-slide.png"
@@ -125,11 +140,14 @@ export default function About() {
                 <h1 className="font-semibold text-xl">
                   Prime Video Clone &#10230;
                 </h1>
-                <p>A Prime video clone redesign made in React Native.</p>
+                <p>A Prime Video clone redesign made in React Native.</p>
               </div>
             </a>
 
-            <a href="https://github.com/sushinectar/weather-app" className="flex flex-col gap-10">
+            <a
+              href="https://github.com/sushinectar/weather-app"
+              className="flex flex-col gap-10"
+            >
               <button className="projects-btn mx-10 p-4 rounded-3xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950">
                 <Image
                   src="/weather-slide.png"
@@ -139,17 +157,17 @@ export default function About() {
                 />
               </button>
               <div className="projects-text flex flex-col mx-10 gap-4">
-                <h1 className="font-semibold text-xl">
-                  Weather App &#10230;
-                </h1>
-                <p>A Web Application with weather api using NextJS and Tailwind.</p>
+                <h1 className="font-semibold text-xl">Weather App &#10230;</h1>
+                <p>
+                  A Web Application with weather api using NextJS and Tailwind.
+                </p>
               </div>
             </a>
           </div>
         </div>
       </main>
 
-      <hr className=""/>
+      <hr className="" />
 
       <footer className="flex flex-col gap-8 m-8">
         <div className="footer flex flex-col gap-8">
