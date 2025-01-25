@@ -70,13 +70,16 @@ export default function Home() {
         </div>
 
         <div className="chat hidden mt-8">
-            <a href="mailto:contato.sushinectar@gmail.com" className="flex justify-center items-center gap-4">
-              <button className="chat-btn bg-custom p-2 rounded-full border border-zinc-900">
-                &#10230;
-              </button>
-              <h1 className="font-semibold">Let’s chat</h1>
-            </a>
-          </div>
+          <a
+            href="mailto:contato.sushinectar@gmail.com"
+            className="flex justify-center items-center gap-4"
+          >
+            <button className="chat-btn bg-custom p-2 rounded-full border border-zinc-900">
+              &#10230;
+            </button>
+            <h1 className="font-semibold">Let’s chat</h1>
+          </a>
+        </div>
 
         {/* Mobile Menu Button */}
         <div className="flex md:hidden">
@@ -113,7 +116,10 @@ export default function Home() {
               </li>
             </ul>
             <div className="mt-8">
-              <a href="mailto:contato.sushinectar@gmail.com" className="flex justify-center items-center gap-4">
+              <a
+                href="mailto:contato.sushinectar@gmail.com"
+                className="flex justify-center items-center gap-4"
+              >
                 <button className="bg-custom p-2 rounded-full border border-zinc-900">
                   &#10230;
                 </button>
@@ -206,7 +212,7 @@ export default function Home() {
           <a href="projects" className="text-custom font-semibold m-6">
             See some of my projects
           </a>
-          <Carousel className="w-60">
+          <Carousel className="projects-carousel w-60">
             <CarouselContent>
               {slides.map((slide, index) => (
                 <CarouselItem key={index}>
@@ -245,7 +251,10 @@ export default function Home() {
               reach out!
             </p>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/nectarsushi/">
+              <a
+                className="contact-img"
+                href="https://www.instagram.com/nectarsushi/"
+              >
                 <Image
                   src="/instagram.png"
                   alt="Instagram Icon"
@@ -253,7 +262,10 @@ export default function Home() {
                   height={50}
                 />
               </a>
-              <a href="https://www.linkedin.com/in/luciano-rodrigues-25173133b/">
+              <a
+                className="contact-img"
+                href="https://www.linkedin.com/in/luciano-rodrigues-25173133b/"
+              >
                 <Image
                   src="/linkedin.png"
                   alt="LinkedIn Icon"
@@ -261,7 +273,10 @@ export default function Home() {
                   height={50}
                 />
               </a>
-              <a href="mailto:contato.sushinectar@gmail.com">
+              <a
+                className="contact-img"
+                href="mailto:contato.sushinectar@gmail.com"
+              >
                 <Image
                   src="/o-email.png"
                   alt="Email Icon"

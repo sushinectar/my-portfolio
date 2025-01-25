@@ -146,7 +146,7 @@ export default function About() {
             </h3>
           </div>
           <div className="work-list flex flex-col items-center mt-16 gap-12">
-            <div className="flex text-left gap-6">
+            <div className="work-btn flex text-left gap-6">
               <div className="star-img flex justify-center items-center w-16 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-yellow-100">
                 <Image src="/star.png" alt="Star icon" width={30} height={30} />
               </div>
@@ -156,7 +156,7 @@ export default function About() {
                 decisions that align with real-world needs.
               </p>
             </div>
-            <div className="flex text-left gap-6">
+            <div className="work-btn flex text-left gap-6">
               <div className="bullseye-img flex justify-center items-center w-16 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-lime-100">
                 <Image
                   src="/bullseye.png"
@@ -171,7 +171,7 @@ export default function About() {
                 functionality, consistency, and clarity.
               </p>
             </div>
-            <div className="flex text-left gap-6">
+            <div className="work-btn flex text-left gap-6">
               <div className="hand-img flex justify-center items-center w-16 h-16 p-4 rounded-xl shadow-[5px_6px_0px_rgba(0,0,0,1)] border-2 border-zinc-950 bg-blue-100">
                 <Image
                   src="/hand-shake.png"

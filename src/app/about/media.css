@@ -117,6 +117,12 @@
     width: 30rem;
     height: 30rem;
     margin: 7rem 0 2rem 0;
+    transition: all 0.2s;
+  }
+
+  .container-img:hover {
+    transition: all 0.2s;
+    transform: scale(1.05);
   }
 
   .work {
@@ -150,6 +156,16 @@
   .work-list {
     width: 36rem;
   }
+
+  .work-btn {
+    transition: all 0.2s;
+  }
+
+  .work-btn:hover {
+    transition: all 0.2s;
+    transform: scale(1.05);
+  }
+
 
   .star-img {
     width: 4rem;
