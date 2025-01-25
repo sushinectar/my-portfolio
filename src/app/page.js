@@ -293,7 +293,7 @@ export default function Home() {
             </a>
           </div>
           <h1 className="text-sm text-zinc-700">
-            © 2024 Luciano Rodrigues. All Rights Reserved.
+            © 2025 Luciano Rodrigues. All Rights Reserved.
           </h1>
         </div>
       </footer>
