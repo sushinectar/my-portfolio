@@ -118,11 +118,11 @@ export default function About() {
           <div className="flex items-center justify-center mb-16">
             <div className="container-img relative overflow-hidden rounded-full w-64 h-64 border-2 border-zinc-950">
               <Image
-                src="/photo-about.jpeg"
+                src="/about-img.png"
                 alt="Luciano Photo"
                 layout="fill"
                 objectFit="cover"
-                className="object-bottom scale-110"
+                className="scale-90"
               />
             </div>
           </div>

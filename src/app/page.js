@@ -148,7 +148,7 @@ export default function Home() {
           <div className="flex items-center justify-center mb-16">
             <div className="container-img relative overflow-hidden rounded-t-full w-64 h-64 shadow-[10px_12px_0px_rgba(183,48,7,1)] border-2 border-zinc-950">
               <Image
-                src="/photo-me.JPEG"
+                src="/home-img.JPEG"
                 alt="Luciano Photo"
                 layout="fill"
                 objectFit="cover"
