@@ -41,7 +41,7 @@ export default function About() {
         </div>
         <div className="chat hidden mt-8">
           <a
-            href="mailto:contato.sushinectar@gmail.com"
+            href="mailto:sushi@sushi.dev"
             className="flex justify-center items-center gap-4"
           >
             <button className="chat-btn bg-custom p-2 rounded-full border border-zinc-900">
